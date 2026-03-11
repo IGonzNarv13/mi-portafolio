@@ -26,7 +26,7 @@ const Footer = () => {
           {/* Social Presence */}
           <div className="flex items-center gap-8">
             <a 
-              href="https://github.com/" 
+              href="https://github.com/IGonzNarv13" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-text-body hover:text-primary transition-all hover:scale-110"
