@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  /* Default Theme (The one we have now) */
+  --color-primary: #6366f1;
+  --color-bg-deep: #0f172a;
+  --color-surface: #1e293b;
+  --color-text-main: #f8fafc;
+  --color-text-body: #94a3b8;
+  --color-bg-footer: #050814;
+}
+
+.theme-ocean-light {
+  --color-primary: #3b82f6;    /* Azul vibrante pero profesional */
+  --color-bg-deep: #f8fafc;    /* Blanco ligeramente grisáceo para no cansar */
+  --color-surface: #ffffff;    /* Blanco puro para las tarjetas */
+  --color-text-main: #0f172a;  /* Azul casi negro para títulos */
+  --color-text-body: #475569;  /* Gris oscuro para párrafos */
+  --color-bg-footer: #e2e8f0;
+}
+
+/* 1. Neo-Light (Green/White) */
+.theme-neo-light {
+  --color-primary: #a3ff00;
+  --color-bg-deep: #ffffff;
+  --color-surface: #f1f5f9;
+  --color-text-main: #000000;
+  --color-text-body: #475569;
+  --color-bg-footer: #0f172a;
+
+}
+
+/* 2. Midnight Rose (Pink/Dark Slate) */
+.theme-midnight-rose {
+  --color-primary: #ff096c;
+  --color-bg-deep: #192731;
+  --color-surface: #2a3843;
+  --color-text-main: #f8fafc;
+  --color-text-body: #94a3b8;
+  --color-bg-footer: #0d151a;
+}
+
+/* 3. Classic Executive (Mint/Indigo) */
+.theme-classic {
+  --color-primary: #B2E0D6;
+  --color-bg-deep: #212842;
+  --color-surface: #36454F;
+  --color-text-main: #F0E7D5;
+  --color-text-body: #94a3b8;
+  --color-bg-footer: #111522;
+}
+
+/* Smooth transition for all theme changes */
+* {
+  transition: background-color 0.5s ease, border-color 0.5s ease, color 0.5s ease;
+}
