@@ -49,7 +49,7 @@ const Skills = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           <SkillCategory title="Software & Desktop" icon={Monitor} skills={["Java", "C++", "C", "Visual Basic", ".NET", "COBOL"]} delay={0.1} />
-          <SkillCategory title="Web Technologies" icon={Globe} skills={["React.js", "Node.js", "JavaScript", "Tailwind", "Vite"]} delay={0.2} />
+          <SkillCategory title="Web Technologies" icon={Globe} skills={["React.js", "Node.js", "Vue.js", "JavaScript", "Tailwind", "Vite"]} delay={0.2} />
           <SkillCategory title="Data Science & BI" icon={BarChart} skills={["Python", "R", "Power BI", "ETL Pipelines", "ML"]} delay={0.3} />
           <SkillCategory title="Databases & OS" icon={Database} skills={["SQL Server", "MySQL", "T-SQL", "Linux (Arch)", "Windows Server"]} delay={0.4} />
           <SkillCategory title="Enterprise Solutions" icon={Cpu} skills={["ERP Systems", "E-commerce", "Technical Writing"]} delay={0.5} />
